@@ -324,7 +324,6 @@
       line-height:1.9;
     }
 
-    /* قسم التعاقدات الجديد */
     .protocols-container {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -494,11 +493,10 @@
       100%{box-shadow:0 0 0 0 rgba(37,211,102,0)}
     }
 
-    /* تعديل وتأمين البوت الذكي */
     #bot{
       position:fixed;
       left:25px;
-      bottom:110px; /* مرفوع لحماية عدم التداخل */
+      bottom:110px;
       width:340px;
       background:#09111d;
       border-radius:25px;
@@ -583,7 +581,6 @@
       box-shadow:0 0 25px rgba(212,175,55,.4);
     }
 
-    /* ميديا كويري احترافية للموبايل تمنع أي تداخل */
     @media(max-width:768px){
       nav {
         padding: 15px 5%;
@@ -737,7 +734,7 @@
     </div>
 
     <div class="service-card" data-aos="fade-up">
-      <img src="https://images.unsplash.com/photo-1579684389782-64d84b5e901a?auto=format&fit=crop&q=100&w=1400">
+      <img src="https://images.unsplash.com/photo-1606811971618-4486d14f3f99?auto=format&fit=crop&q=100&w=1400">
       <div class="service-content">
         <h3>حشو عادي وعصب</h3>
         <p>علاج جذور وحشو العصب والحشو العادي بأحدث الأجهزة الديجيتال وبدون ألم لضمان حماية الأسنان.</p>
@@ -756,7 +753,7 @@
       <img src="https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&q=100&w=1400">
       <div class="service-content">
         <h3>أسنان النساء والأطفال</h3>
-        <p>قسم وخدمات متكاملة للعناية بأطفالكم وعلاجات وقائية وحشوات مخصصة لهم لرحلة علاجية مريحة وبدون خوف.</p>
+        <p>قسم وخدمات متكاملة للعناية بأطفالكم وعلاجات وقائية وحشوات مخصصة لهم لرحلة علاجية مريحة وبدون خوف. (بالإضافة لخدمات أخرى كثيرة تناسب كافة احتياجاتكم)</p>
       </div>
     </div>
 
@@ -924,7 +921,7 @@
     <button onclick="sendBot('صفحة الفيسبوك')">صفحة الفيسبوك</button>
     <button onclick="sendBot('الحجز')">الحجز</button>
     <button onclick="sendBot('الخدمات المتاحة')">الخدمات المتاحة</button>
-    <button onclick="sendBot('التعقيم')">التعقيم</button>
+    <button onclick="sendBot('التعقم')">التعقيم</button>
   </div>
 </div>
 
@@ -995,7 +992,7 @@
         response = 'للحجز الفوري والاستفسار، تواصل معنا عبر الواتساب على 01125685453 أو اتصل هاتفياً بالمساعد على 01018563344.';
         break;
       case 'الخدمات المتاحة':
-        response = 'نقدم خدمات متكاملة: تقويم الأسنان، تجميل وحشوات تجميلية، زراعة الأسنان، حشو عادي وعصب ديجيتال بدون ألم، تركيبات ثابتة ومتحركة، وقسم أسنان الأطفال.';
+        response = 'نقدم خدمات متكاملة: تقويم الأسنان، تجميل وحشوات تجميلية، زراعة الأسنان, حشو عادي وعصب ديجيتال بدون ألم، تركيبات ثابتة ومتحركة، وقسم أسنان الأطفال والنساء.';
         break;
       case 'التعقيم':
         response = 'نحن نضع سلامتكم أولاً ونلتزم بأعلى وأحدث معايير التعقيم الفوق عالمية ومكافحة العدوى.';
